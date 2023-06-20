@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="../assets/css/remixicon.css">
+
+    <!-- style.css -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+
+</head>
+
+<body class="Checkout">
+
+    <div class="nav-blacklayer "></div>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+        <div class="mx-5">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-5 col-sm-4 col-md-3  col-lg-2">
+                    <div class="nav-logo">
+                        <a href="index.html">
+                            <img src="../assets/images/Logo.png" alt="" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-auto col-lg-10">
+                    <ul class="nav-menu">
+                        <div class="hamburgerr d-lg-none">
+                            <img src="../assets/images/close-fill.svg" alt="" class="close-nav">
+                        </div>
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link active-nav">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about-us.html" class="nav-link">Our Story</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="Blog.html" class="nav-link">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact-us.html" class="nav-link">Contact</a>
+                        </li>
+
+                        <li class=" mx-3 d-none d-lg-block">
+                            <a href="#" class="d-flex align-items-center">
+                                <div>
+                                    <img src="../assets/images/Scotter.png" alt="" class="">
+                                </div>
+                                <div class="CallOrder">
+                                    <p>Call and Order in</p>
+                                    <h5 class="fw-bolder">+1732-908-4500</h5>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <div class="header-icon d-none d-lg-flex">
+                                <!-- <a href="#" class="nav-icon d-none d-lg-flex">
+                                    <i class="ri-search-line"></i>
+                                </a> -->
+                                <a href="#" class="nav-icon">
+                                    <i class="ri-user-fill"></i>
+                                </a>
+                                <!-- <a href="#" class="nav-icon">
+                                    <div class="position-relative d-inline-flex">
+                                        <i class="ri-heart-fill"></i>
+                                        <span class="nav-badges">52</span>
+                                    </div>
+                                </a>
+                                <a href="#" class="nav-icon">
+                                    <div class="position-relative d-inline-flex">
+                                        <i class="ri-shopping-basket-2-fill"></i>
+                                        <span class="nav-badges">0</span>
+                                    </div>
+                                </a> -->
+                            </div>
+                        </li>
+                    </ul>
+
+
+                    <div class="header-icon d-flex d-lg-none">
+                        <a href="#" class="nav-icon">
+                            <i class="ri-phone-fill"></i>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <div class="position-relative d-inline-flex">
+                                <i class="ri-heart-fill"></i>
+                                <span class="nav-badges">52</span>
+                            </div>
+                        </a>
+                        <a href="#" class="nav-icon">
+                            <div class="position-relative d-inline-flex">
+                                <i class="ri-shopping-basket-2-fill"></i>
+                                <span class="nav-badges">0</span>
+                            </div>
+                        </a>
+                        <div class="hamburger">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Slider -->
+
+
+    <section class="spacerX mt-5">
+        <div class="special-menu  food-gallery">
+            <div class="row special-list justify-content-center">
+                <div class="col-12 col-lg-8 order-2 order-lg-1 mt-5 mt-lg-0 acount">
+                    <div class="accordion accordion-flush Checkout-accordion" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <div class="accordion-image">
+                                <div class="order-image">
+                                    <img src="../assets/images/Order-User.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    Account
+                                </button>
+                            </h2>
+
+                            <div id="flush-collapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p>Placeholder content for this accordion, which is intended to demonstrate the.</p>
+                                    <div class="login-Account">
+                                        <div class="accountbutton" onclick="AccountForm('Login','block')">
+                                            <a href="#">
+                                                <p class="d-none d-sm-block">Have an Account? </p>
+                                                <span>
+                                                    <strong>LOG IN</strong>
+                                                </span>
+                                            </a>
+                                        </div>
+                                        <div class="accountbutton" onclick="AccountForm('SignUp','block')">
+                                            <a href="#">
+                                                <p class="d-none d-sm-block">New to Food One</p>
+                                                <span>
+                                                    <strong>SIGN UP</strong>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="row account-login justify-content-center" id="Login">
+                                        <div class="col-12 col-lg-8 ps-0">
+                                            <p class="CreateAccount">Enter login details or
+                                                <a href="#">create an account</a>
+                                            </p>
+
+                                            <form class="verifynumber">
+                                                <div class="PhoneNumber">
+                                                    <label class="form-label">Phone Number</label>
+                                                    <input type="number" class="form-control"
+                                                        placeholder="Phone Number">
+
+                                                </div>
+
+                                                <div class="OTP text-center">
+                                                    <label class="form-label my-3">One time password</label>
+                                                    <div class="d-flex justify-content-center ">
+                                                        <input type="number" class="form-control">
+                                                        <input type="number" class="form-control">
+                                                        <input type="number" class="form-control">
+                                                        <input type="number" class="form-control">
+                                                    </div>
+                                                </div>
+
+                                                <div class="verifyOTP">
+                                                    <a href="#" class="d-block text-center">Verify OTP</a>
+                                                </div>
+
+                                            </form>
+
+
+                                        </div>
+                                    </div>
+
+                                    <div class="row account-login justify-content-center" id="SignUp">
+                                        <div class="col-12 col-lg-8 mt-4 mt-md-0">
+                                            <p class="CreateAccount">Sign up or
+                                                <a href="#">log in</a> to your account
+                                            </p>
+
+                                            <form class="verifynumber signupAccount">
+                                                <div class="PhoneNumber">
+                                                    <label class="form-label">Phone Number</label>
+                                                    <input type="number" class="form-control">
+                                                </div>
+                                                <div class="PhoneNumber">
+                                                    <label class="form-label">Name</label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+
+                                                <div class="PhoneNumber">
+                                                    <label class="form-label">Email</label>
+                                                    <input type="email" class="form-control">
+
+                                                </div>
+                                                <div class=" PhoneNumber">
+                                                    <label class="form-label">Password</label>
+                                                    <input type="password" class="form-control">
+                                                </div>
+
+                                                <a href="#" class="d-block ReferralCode">
+                                                    Have a referral code?
+                                                </a>
+
+                                                <div class="verifyOTP">
+                                                    <a href="#" class="d-block text-center">Continue</a>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-image">
+                                <div class="order-image">
+                                    <img src="../assets/images/Order-User.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    Delivery address
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse "
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <p>You have a saved address in this location</p>
+
+                                    <div class="row DeliveryAddress account-login justify-content-between">
+                                        <div class="col-12 col-md-6 col-xxl-5 p-0 pe-md-2 ps-0">
+                                            <div class="otherAdd">
+                                                <p class="OtherHeading">
+                                                    <i class="ri-map-pin-line me-2"></i>
+                                                    Other
+                                                </p>
+                                                <div class="Deliver-Details">
+                                                    <div class="address">
+                                                        <span>480, Sector -5B, Madhya Marg, Chandigarh Haryana</span>
+                                                    </div>
+
+                                                    <div class="DELIVERHERE">
+                                                        <p class="DeliverTime py-2 fw-bold">50min</p>
+                                                        <a href="#" class="DELIVERHERE-Btn">
+                                                            DELIVER HERE
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 col-xxl-6 mt-4 mt-md-0 p-0 ps-md-2">
+                                            <div class="otherAdd NewAdd mb-4">
+                                                <p class="OtherHeading AddNew">
+                                                    <i class="ri-map-pin-line me-2"></i>
+                                                    Add new address
+                                                    <img src="../assets/images/add-new-add.svg" alt=""
+                                                        class="img-fluid ms-2">
+                                                </p>
+                                                <div class="Deliver-Details">
+                                                    <form class="verifynumber signupAccount">
+
+                                                        <div class="PhoneNumber">
+                                                            <label class="form-label">Address line 1</label>
+                                                            <input type="text" class="form-control">
+                                                        </div>
+
+                                                        <div class="PhoneNumber">
+                                                            <label class="form-label">Address line 2</label>
+                                                            <input type="text" class="form-control">
+                                                        </div>
+
+                                                        <div class="PhoneNumber">
+                                                            <label class="form-label">Door / Flat no. Can’t be
+                                                                empty</label>
+                                                            <input type="text" class="form-control">
+                                                        </div>
+
+                                                        <div class="PhoneNumber">
+                                                            <label class="form-label">Landmark</label>
+                                                            <input type="text" class="form-control">
+                                                        </div>
+
+                                                        <div class="menu-radio">
+                                                            <div class="radio-with-Icon">
+                                                                <p class="radioOption-Item">
+                                                                    <input type="radio" name="BannerTypes"
+                                                                        id="BannerType1" value="true"
+                                                                        class="ng-valid ng-dirty ng-touched ng-empty"
+                                                                        aria-invalid="false" checked>
+                                                                    <label for="BannerType1">
+                                                                        <i class="ri-home-smile-line me-2"></i>
+                                                                        <span>Home</span>
+                                                                    </label>
+                                                                </p>
+                                                                <p class="radioOption-Item">
+                                                                    <input type="radio" name="BannerTypes"
+                                                                        id="BannerType2" value="false"
+                                                                        class="ng-valid ng-dirty ng-touched ng-empty"
+                                                                        aria-invalid="false">
+                                                                    <label for="BannerType2">
+                                                                        <i class="ri-building-2-line me-2"></i>
+                                                                        <span>Work</span>
+                                                                    </label>
+                                                                </p>
+                                                                <p class="radioOption-Item">
+                                                                    <input type="radio" name="BannerTypes"
+                                                                        id="BannerType3" value="false"
+                                                                        class="ng-valid ng-dirty ng-touched ng-empty"
+                                                                        aria-invalid="false">
+                                                                    <label for="BannerType3">
+                                                                        <i class="ri-map-pin-line me-2"></i>
+                                                                        <span>Other</span>
+                                                                    </label>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="verifyOTP">
+                                                            <a href="#" class="d-block text-center mb-0">Save Address to
+                                                                Proceed</a>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <div class="accordion-image">
+                                <div class="order-image">
+                                    <img src="../assets/images/Order-User.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    Payment
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <div class="row">
+                                        <div class="col-12 col-md-4 payment-menu p-0">
+                                            <div class="navs">
+                                                <ul>
+                                                    <li class="homes active-card">
+                                                        <div class="d-flex align-items-center">
+                                                            <i class="ri-wallet-3-fill fs-2 me-2"></i>
+                                                            Wallets
+                                                        </div>
+                                                    </li>
+                                                    <li class="abouts">
+                                                        <div class="d-flex align-items-center">
+                                                            <i class="ri-bank-card-fill fs-2 me-2"></i>
+                                                            Credit/debit
+                                                            Cards
+                                                        </div>
+                                                    </li>
+                                                    <li class="contacts">
+                                                        <div class="d-flex align-items-center">
+                                                            <i class="ri-bank-fill fs-2 me-2"></i>
+                                                            Netbanking
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-8">
+                                            <div class="contents">
+                                                <!-- First Wallets -->
+                                                <div class="content-homes abc show">
+                                                    <div class="row">
+                                                        <div class="col-12 p-0">
+                                                            <div class="amazon-pay">
+                                                                <img src="../assets/images/amazonpay.png" alt="">
+                                                                <h6>Amazon Pay</h6>
+
+                                                                <div class="Apay-btn">
+                                                                    <a href="#">Pay ₹516</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 mt-4 p-0">
+                                                            <div class="amazon-pay">
+                                                                <img src="../assets/images/paytm.png" alt="">
+                                                                <h6>Paytm</h6>
+
+                                                                <div class="linked-account">
+                                                                    <a href="#">LNK ACCOUNT</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 mt-4 p-0">
+                                                            <div class="amazon-pay">
+                                                                <img src="../assets/images/phonepay.png" alt="">
+                                                                <h6>Phonepay</h6>
+
+                                                                <div class="linked-account">
+                                                                    <a href="#">LNK ACCOUNT</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <!-- Credit/debit card -->
+                                                <div class="content-abouts abc">
+                                                    Credit/debit
+                                                    Cards
+                                                </div>
+                                                <div class="content-contacts abc">Net Banking</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-4 order-1 order-lg-2 Home">
+                    <div class="place-order">
+                        <h5>My Order</h5>
+                    </div>
+                    <div class="order-details">
+                        <div class="row">
+                            <div class="col-12 address-div">
+                                <div class="d-flex justify-content-between">
+                                    <div class="addres-line">
+                                        <p class="fw-bolder">122, Rajiv Nagar, Azad Road,</p>
+                                        <p class="fw-bolder"> New Delhi</p>
+                                        <p class="mt-4 d-none d-sm-flex align-items-center fw-bolder"><i
+                                                class="ri-time-line me-3"></i>
+                                            20
+                                            min</p>
+                                    </div>
+
+                                    <div class="edit">
+                                        <a href="#" class="d-flex align-items-center fw-bolder">Edit <i
+                                                class="ri-pencil-fill"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row p-0 orderitems-list" id="add-foods">
+                                <div class="col-12 order-div mt-2 mt-md-5">
+                                    <div class="d-flex align-items-center">
+                                        <div class="order-img px-3">
+                                            <img src="../assets/images/Shack-Burger.png" alt="">
+                                        </div>
+
+                                        <div class="d-flex justify-content-between w-100">
+                                            <div class="order-name">
+                                                <p class="fw-bolder">Aloo Tikki</p>
+                                                <p>Burger</p>
+                                                <p class="fw-bolder">Rs 69</p>
+                                            </div>
+                                            <div class="order-name text-end">
+                                                <p class="fw-bold">Rs 138</p>
+                                                <div class="d-flex align-items-center mt-2 cart-nav">
+                                                    <a href="#">-</a>
+                                                    <p class="fw-bolder mx-3 item-count">2</p>
+                                                    <a href="#">+</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-12 order-div mt-2 mt-md-5 ">
+                                    <div class="d-flex align-items-center">
+                                        <div class="order-img px-4">
+                                            <img src="../assets/images/order-pizza.png" alt="">
+                                        </div>
+
+                                        <div class="d-flex justify-content-between w-100">
+                                            <div class="order-name">
+                                                <p class="fw-bolder">Paneer Makhni</p>
+                                                <p>Pizza</p>
+                                                <p class="fw-bolder">Rs 189</p>
+                                            </div>
+                                            <div class="order-name text-end">
+                                                <p class="fw-bold">Rs 378</p>
+                                                <div class="d-flex align-items-center mt-2">
+                                                    <a href="#">-</a>
+                                                    <p class="fw-bolder mx-3">2</p>
+                                                    <a href="#">+</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                            <div class="col-12 col-md-12  promo-code-input mt-2 mt-md-5 p-0 position-relative px-2">
+                                <input type="text" placeholder="Promo Code">
+                                <a href="#" class="apply-btn">Apply</a>
+                            </div>
+
+                            <div class="col-12 col-md-12 order-div mt-2 BillDetails mt-md-5 w-sm-100 px-2">
+                                <p class="fw-bolder d-block">Bill Details</p>
+
+                                <ul class="mt-3 BillDetails-Ul">
+                                    <li class="d-flex justify-content-between py-1">
+                                        <p>Item Total</p>
+                                        <p>RS 512</p>
+                                    </li>
+                                    <li class="d-flex justify-content-between py-1">
+                                        <p>Delivery fee | 0.8 km</p>
+                                        <p>RS 22</p>
+                                    </li>
+                                    <li class="d-flex justify-content-between py-1">
+                                        <p>Taxes and Charges</p>
+                                        <p>RS 11.90</p>
+                                    </li>
+                                    <li class="d-flex justify-content-between my-4 borderdashed">
+
+                                    </li>
+                                    <li class="d-flex justify-content-between py-1 topay">
+                                        <p class="fw-bolder">TO PAY</p>
+                                        <pclass="fw-bolder">RS 11.90</p>
+                                    </li>
+                                </ul>
+
+
+
+                            </div>
+                            <div class="confirmOrder">
+                                <a href="#" class="d-block fw-bolder">
+                                    Confirm Order
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-8">
+                    <div class="PreviousOrder">
+                        <p class="OrderHistory">Previous Order History</p>
+
+                        <ul class="OrderHistoryUl">
+
+                            <li class="History-items d-flex justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <div class="order-product">
+                                        <img src="../assets/images/history-product-1.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="order-details ms-4">
+                                        <p class="fw-bolder">Aloo Tikki Burger</p>
+                                        <div class="d-flex align-items-center order-DateTime py-1">
+                                            <p>12 jan <span class="d-none d-sm-block">2022</span></p>
+                                            <p class="ms-3">12:00pm</p>
+                                        </div>
+
+                                        <div class="order-rate d-flex align-items-end">
+                                            <p class="d-none d-sm-block">You Rate</p>
+                                            <span class="Star ms-sm-4">
+                                                5<i class="ri-star-fill"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="order-PriceID text-end">
+                                    <a href="#" class="OrderPrice fw-bolder d-inline-flex align-items-center">
+                                        RS 70
+                                        <img src="../assets/images/arrow-up.svg" alt="" class="img-fluid">
+                                    </a>
+                                    <div class="OrderId mt-2">
+                                        Order Id #2687
+                                    </div>
+                                </div>
+
+                            </li>
+
+                            <li class="History-items d-flex justify-content-between">
+                                <div class="d-flex align-items-center">
+                                    <div class="order-product">
+                                        <img src="../assets/images/history-product-2.png" alt="" class="img-fluid">
+                                    </div>
+
+                                    <div class="order-details ms-4">
+                                        <p class="fw-bolder">Aloo Tikki Burger</p>
+                                        <div class="d-flex align-items-center order-DateTime py-1">
+                                            <p>12 jan <span class="d-none d-sm-block">2022</span></p>
+                                            <p class="ms-3">12:00pm</p>
+                                        </div>
+
+                                        <div class="order-rate d-flex align-items-end">
+                                            <p class="d-none d-sm-block">You Rate</p>
+                                            <span class="Star ms-sm-4">
+                                                5<i class="ri-star-fill"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="order-PriceID text-end">
+                                    <a href="#" class="OrderPrice fw-bolder d-inline-flex align-items-center">
+                                        RS 70
+                                        <img src="../assets/images/arrow-up.svg" alt="" class="img-fluid">
+                                    </a>
+                                    <div class="OrderId mt-2">
+                                        Order Id #2687
+                                    </div>
+                                </div>
+
+                            </li>
+
+                        </ul>
+
+                        <a href="#" class="Viewmore fw-bolder d-block text-center">
+                            View more
+                            <img src="../assets/images/Down Arrow.svg" alt="" class="img-fluid">
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer-bg mt-5">
+        <div class="spacerX">
+            <div class="row text-white align-items-center">
+                <div class="col-12 col-sm-6 col-lg-3 footer-menu">
+                    <img src="../assets/images/Footer-logo.png" alt="" class="img-fluid">
+
+                    <div class="mt-5">
+                        <p>Mon - Sat: 11AM - 11PM</p>
+                        <p>Sun: 11AM - 08PM</p>
+                        <p class="mt-3">Mon - Sat: 01PM - 10PM</p>
+                        <p>1-800-700-600</p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 footer-menu">
+                    <h6>ABOUT US</h6>
+                    <ul>
+                        <li><a href="about-us.html">About Us</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">TermS & Condition</a></li>
+                        <li><a href="#">Products Return</a></li>
+                        <li><a href="#">Wholesell Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 footer-menu mt-5 mt-sm-lg-0">
+                    <h6>QUICK MENU</h6>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Health Measure</a></li>
+                        <li><a href="#">Job Oppertunities</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3 footer-menu mt-5 mt-sm-lg-0">
+                    <h6>Instagram</h6>
+                    <div class="mt-4">
+                        <a href="#"><img src="../assets/images/instagram.png" alt="" class="img-fluid"></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- jquery-3.6.0 -->
+    <script src="../assets/js/jquery-3.6.0.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Coustam js -->
+    <script src="../assets/js/script.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("li").click(function () {
+                var classClicked = $(this).attr('class');
+                $(".contents .abc").removeClass("show");
+
+                $(".content-" + classClicked).addClass("show");
+                $(this).addClass('active-card').siblings().removeClass('active-card');
+            });
+        });
+
+
+        function AccountForm(id, property) {
+            $('#Login').hide();
+            $('#SignUp').hide();
+            var id = document.getElementById(id);
+            // console.log(id)
+            id.style.display = property;
+            // id.style.siblings.display = 'none';
+        }
+
+    </script>
+</body>
+
+</html>
